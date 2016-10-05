@@ -9,10 +9,13 @@ namespace hello_world
             if (args.Length < 1)
             {
                 Console.WriteLine("Program requires at least one argument");
+                Console.ReadLine();
                 return;
             }
 
-            Console.WriteLine(string.Format("Hello {0}!",args[0]));
+            var module = new hello_world_module();
+
+            Console.WriteLine(module.SayHello(args[0]));
 
             Console.ReadLine();
         }

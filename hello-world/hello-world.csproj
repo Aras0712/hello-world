@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CapitalizeHello.cs" />
+    <Compile Include="CountLetters.cs" />
     <Compile Include="hello-world-module.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

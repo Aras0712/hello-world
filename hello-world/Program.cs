@@ -15,10 +15,12 @@ namespace hello_world
 
             var module = new hello_world_module();
             var module1 = new CapitalizeHello();
+            var module2 = new CountLetters();
 
 
             Console.WriteLine(module1.Lower(module.SayHello(args[0])));
-
+            Console.WriteLine("Most Commone Letter is: ");
+            Console.WriteLine(module2.Letter(args[0]));
             Console.ReadLine();
         }
     }
